@@ -1,0 +1,28 @@
+# Example: add the Omni Brain mock API next to your own app.
+# Copy the `omni-brain-mock` service into your team's compose file.
+services:
+  omni-brain-mock:
+    image: ghcr.io/jeremyheslop/omni-brain-mock:latest
+    ports:
+      - "8080:8080"
+    environment:
+      # Optional: require this key instead of accepting any bearer token.
+      # API_KEY: "team-secret"
+      # Optional: wipe all writes and regenerate data every N minutes.
+      # RESET_INTERVAL_MINUTES: "30"
+      TZ: UTC
+    # Optional: serve your own Markdown instead of the bundled content.
+    # volumes:
+    #   - ./my-content:/app/content:ro
+    restart: unless-stopped
+
+  # Your app goes here. It reaches the mock at http://omni-brain-mock:8080
+  # (from your browser use http://localhost:8080).
+  my-app:
+    build: .
+    depends_on:
+      - omni-brain-mock
+    environment:
+      OMNI_API_BASE: "http://omni-brain-mock:8080"
+    ports:
+      - "3000:3000"

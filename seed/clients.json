@@ -1,0 +1,499 @@
+{
+  "_note": "All companies are fictional. Shared seed for API data and documentation content.",
+  "technicians": [
+    {
+      "id": 1,
+      "name": "Alex Rivera",
+      "role": "Lead Technician"
+    },
+    {
+      "id": 2,
+      "name": "Sam Okafor",
+      "role": "Field Technician"
+    },
+    {
+      "id": 3,
+      "name": "Jordan Blake",
+      "role": "Help Desk"
+    },
+    {
+      "id": 4,
+      "name": "Casey Morgan",
+      "role": "Owner / Escalations"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1001,
+      "name": "Tidewater Ledger CPAs",
+      "slug": "tidewater-ledger-cpas",
+      "industry": "accounting",
+      "employees": 14,
+      "city": "Salisbury, MD",
+      "accelo_industry": "Financial Services",
+      "core_plan": "Omni+ Proactive",
+      "service_plans": [
+        "Omni+ Proactive",
+        "Omni+ Advanced Security",
+        "Omni+ Server",
+        "Server Backup",
+        "Email Management"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1002,
+      "name": "Pocomoke Bay Tax & Advisory",
+      "slug": "pocomoke-bay-tax-and-advisory",
+      "industry": "accounting",
+      "employees": 9,
+      "city": "Pocomoke City, MD",
+      "accelo_industry": "Financial Services",
+      "core_plan": "Omni+ Basic",
+      "service_plans": [
+        "Omni+ Basic",
+        "Omni+ Advanced Security",
+        "Omni+ Backup"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1003,
+      "name": "Shorepoint Wealth Partners",
+      "slug": "shorepoint-wealth-partners",
+      "industry": "financial-advisory",
+      "employees": 11,
+      "city": "Easton, MD",
+      "accelo_industry": "Financial Services",
+      "core_plan": "Omni+ Proactive",
+      "service_plans": [
+        "Omni+ Proactive",
+        "Omni+ Advanced Security",
+        "Omni+ Server",
+        "Email Management",
+        "Omni+ Passportal"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1004,
+      "name": "Heron Neck Insurance Group",
+      "slug": "heron-neck-insurance-group",
+      "industry": "insurance",
+      "employees": 22,
+      "city": "Berlin, MD",
+      "accelo_industry": "Insurance",
+      "core_plan": "Omni+ Proactive",
+      "service_plans": [
+        "Omni+ Proactive",
+        "Omni+ Advanced Security",
+        "Omni+ Server",
+        "Server Backup",
+        "Email Management"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1005,
+      "name": "Wicomico Family Dental",
+      "slug": "wicomico-family-dental",
+      "industry": "dental",
+      "employees": 18,
+      "city": "Salisbury, MD",
+      "accelo_industry": "Healthcare",
+      "core_plan": "Omni+ Proactive",
+      "service_plans": [
+        "Omni+ Proactive",
+        "Omni+ Advanced Security",
+        "Omni+ Server",
+        "Server Backup"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1006,
+      "name": "Marshside Veterinary Clinic",
+      "slug": "marshside-veterinary-clinic",
+      "industry": "veterinary",
+      "employees": 12,
+      "city": "Fruitland, MD",
+      "accelo_industry": "Healthcare",
+      "core_plan": "Omni+ Basic",
+      "service_plans": [
+        "Omni+ Basic",
+        "Omni+ Backup",
+        "Hosted Website Plan"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1007,
+      "name": "Chincoteague Title & Escrow",
+      "slug": "chincoteague-title-and-escrow",
+      "industry": "title-escrow",
+      "employees": 8,
+      "city": "Snow Hill, MD",
+      "accelo_industry": "Financial Services",
+      "core_plan": "Omni+ Basic",
+      "service_plans": [
+        "Omni+ Basic",
+        "Omni+ Advanced Security",
+        "Omni+ Server",
+        "Server Backup",
+        "Omni+ Backup",
+        "Email Management"
+      ],
+      "parent_company_id": 1016
+    },
+    {
+      "id": 1008,
+      "name": "Brackish Water Engineering",
+      "slug": "brackish-water-engineering",
+      "industry": "engineering",
+      "employees": 27,
+      "city": "Seaford, DE",
+      "accelo_industry": "Engineering",
+      "core_plan": "Omni+ Managed",
+      "service_plans": [
+        "Omni+ Managed",
+        "Omni+ Advanced Security",
+        "Omni+ Server",
+        "Server Backup",
+        "Hosted Cloud Server",
+        "Omni+ Passportal"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1009,
+      "name": "Saltmarsh Law Group",
+      "slug": "saltmarsh-law-group",
+      "industry": "legal",
+      "employees": 16,
+      "city": "Salisbury, MD",
+      "accelo_industry": "Professional Service",
+      "core_plan": "Omni+ Managed",
+      "service_plans": [
+        "Omni+ Managed",
+        "Omni+ Advanced Security",
+        "Omni+ Server",
+        "Server Backup",
+        "Email Management",
+        "Omni+ Passportal"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1010,
+      "name": "Nanticoke Mechanical Services",
+      "slug": "nanticoke-mechanical-services",
+      "industry": "hvac-trades",
+      "employees": 34,
+      "city": "Delmar, DE",
+      "accelo_industry": "Plumbing",
+      "core_plan": "Omni+ Basic",
+      "service_plans": [
+        "Omni+ Basic",
+        "Omni+ Server",
+        "Server Backup",
+        "Hosted Website Plan"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1011,
+      "name": "Cypress Swamp Builders",
+      "slug": "cypress-swamp-builders",
+      "industry": "construction",
+      "employees": 41,
+      "city": "Selbyville, DE",
+      "accelo_industry": "Construction",
+      "core_plan": "Omni+ Basic",
+      "service_plans": [
+        "Omni+ Basic",
+        "Omni+ Server",
+        "Server Backup",
+        "Omni+ Backup",
+        "Email Management"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1012,
+      "name": "Ocean Gateway Realty",
+      "slug": "ocean-gateway-realty",
+      "industry": "real-estate",
+      "employees": 19,
+      "city": "Ocean City, MD",
+      "accelo_industry": "Real Estate",
+      "core_plan": "Omni+ Basic",
+      "service_plans": [
+        "Omni+ Basic",
+        "Email Management",
+        "Hosted Website Plan"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1013,
+      "name": "Bayside Pediatric Therapy",
+      "slug": "bayside-pediatric-therapy",
+      "industry": "healthcare",
+      "employees": 24,
+      "city": "Salisbury, MD",
+      "accelo_industry": "Healthcare",
+      "core_plan": "Omni+ Managed",
+      "service_plans": [
+        "Omni+ Managed",
+        "Omni+ Advanced Security",
+        "Omni+ Server",
+        "Server Backup",
+        "Email Management"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1014,
+      "name": "Old Mill Grain & Supply",
+      "slug": "old-mill-grain-and-supply",
+      "industry": "agriculture",
+      "employees": 15,
+      "city": "Princess Anne, MD",
+      "accelo_industry": "Retail",
+      "core_plan": "Omni+ Basic",
+      "service_plans": [
+        "Omni+ Basic",
+        "Omni+ Server",
+        "Server Backup"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1015,
+      "name": "Assateague Outfitters",
+      "slug": "assateague-outfitters",
+      "industry": "retail",
+      "employees": 10,
+      "city": "Berlin, MD",
+      "accelo_industry": "Retail",
+      "core_plan": null,
+      "service_plans": [
+        "Hosted Website Plan"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1016,
+      "name": "Eastern Shore Credit Union Services",
+      "slug": "eastern-shore-credit-union-services",
+      "industry": "financial-services",
+      "employees": 38,
+      "city": "Salisbury, MD",
+      "accelo_industry": "Financial Services",
+      "core_plan": "Omni+ Managed",
+      "service_plans": [
+        "Omni+ Managed",
+        "Omni+ Advanced Security",
+        "Omni+ Server",
+        "Server Backup",
+        "Email Management",
+        "Omni+ Passportal"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1017,
+      "name": "Kingfisher Bookkeeping",
+      "slug": "kingfisher-bookkeeping",
+      "industry": "accounting",
+      "employees": 4,
+      "city": "Hebron, MD",
+      "accelo_industry": "Financial Services",
+      "core_plan": null,
+      "service_plans": [
+        "Email Management"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1018,
+      "name": "Harbor Light Church",
+      "slug": "harbor-light-church",
+      "industry": "nonprofit",
+      "employees": 6,
+      "city": "Cambridge, MD",
+      "accelo_industry": "Church",
+      "core_plan": "Omni+ Basic",
+      "service_plans": [
+        "Omni+ Basic",
+        "Hosted Website Plan"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1019,
+      "name": "Peninsula Freight Brokers",
+      "slug": "peninsula-freight-brokers",
+      "industry": "logistics",
+      "employees": 21,
+      "city": "Laurel, DE",
+      "accelo_industry": "Professional Service",
+      "core_plan": "Omni+ Proactive",
+      "service_plans": [
+        "Omni+ Proactive",
+        "Omni+ Server",
+        "Server Backup",
+        "Hosted Cloud Server"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1020,
+      "name": "Sandpiper Physical Therapy",
+      "slug": "sandpiper-physical-therapy",
+      "industry": "healthcare",
+      "employees": 17,
+      "city": "Ocean Pines, MD",
+      "accelo_industry": "Healthcare",
+      "core_plan": "Omni+ Basic",
+      "service_plans": [
+        "Omni+ Basic",
+        "Omni+ Advanced Security",
+        "Server Backup",
+        "Omni+ Backup"
+      ],
+      "parent_company_id": 1013
+    },
+    {
+      "id": 1021,
+      "name": "Driftwood Architecture Studio",
+      "slug": "driftwood-architecture-studio",
+      "industry": "architecture",
+      "employees": 9,
+      "city": "Lewes, DE",
+      "accelo_industry": "Professional Service",
+      "core_plan": "Omni+ Proactive",
+      "service_plans": [
+        "Omni+ Proactive",
+        "Omni+ Backup",
+        "Hosted Website Plan"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1022,
+      "name": "Blue Crab Marine Repair",
+      "slug": "blue-crab-marine-repair",
+      "industry": "marine",
+      "employees": 13,
+      "city": "Crisfield, MD",
+      "accelo_industry": "Retail",
+      "core_plan": null,
+      "service_plans": [],
+      "parent_company_id": null
+    },
+    {
+      "id": 1023,
+      "name": "Willards Ridge Orchards",
+      "slug": "willards-ridge-orchards",
+      "industry": "agriculture",
+      "employees": 11,
+      "city": "Willards, MD",
+      "accelo_industry": "Manufacturing",
+      "core_plan": "Omni+ Basic",
+      "service_plans": [
+        "Omni+ Basic",
+        "Email Management"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1024,
+      "name": "Calvary Shores Academy",
+      "slug": "calvary-shores-academy",
+      "industry": "education",
+      "employees": 45,
+      "city": "Salisbury, MD",
+      "accelo_industry": "Education",
+      "core_plan": "Omni+ Managed",
+      "service_plans": [
+        "Omni+ Managed",
+        "Omni+ Advanced Security",
+        "Omni+ Server",
+        "Server Backup",
+        "Email Management",
+        "Hosted Website Plan",
+        "Omni+ Backup"
+      ],
+      "parent_company_id": null
+    },
+    {
+      "id": 1025,
+      "name": "Fenwick Island Property Mgmt",
+      "slug": "fenwick-island-property-mgmt",
+      "industry": "property-management",
+      "employees": 14,
+      "city": "Fenwick Island, DE",
+      "accelo_industry": "Real Estate",
+      "core_plan": "Omni+ Proactive",
+      "service_plans": [
+        "Omni+ Proactive",
+        "Omni+ Server",
+        "Server Backup",
+        "Email Management",
+        "Omni+ Backup"
+      ],
+      "parent_company_id": null
+    }
+  ],
+  "segmentations": {
+    "_note": "Mirrors the Accelo segmentations used on companies. Service Plans is multi-valued.",
+    "industry": {
+      "id": 1,
+      "title": "Industry",
+      "values": [
+        "Technology & Software",
+        "Professional Service",
+        "Hotel & Restaurants",
+        "Nonprofit",
+        "Church",
+        "Construction",
+        "Financial Services",
+        "Real Estate",
+        "Education",
+        "Healthcare",
+        "Marketing",
+        "Government",
+        "Retail",
+        "Insurance",
+        "Manufacturing",
+        "Electrical",
+        "Engineering",
+        "Funeral Services",
+        "Landscaping",
+        "Pest Control",
+        "Pet",
+        "Plumbing"
+      ]
+    },
+    "service_plans": {
+      "id": 5,
+      "title": "Service Plans",
+      "core_plans": [
+        "Omni+ Basic",
+        "Omni+ Proactive",
+        "Omni+ Managed"
+      ],
+      "add_ons": [
+        "Omni+ Advanced Security",
+        "Omni+ Backup",
+        "Omni+ Server",
+        "Server Backup",
+        "Email Management",
+        "Hosted Website Plan",
+        "Hosted Cloud Server",
+        "Omni+ Passportal"
+      ]
+    }
+  }
+}
